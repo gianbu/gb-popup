@@ -41,6 +41,7 @@ require_once GB_POPUP_PATH . 'includes/class-gb-popup.php';
 require_once GB_POPUP_PATH . 'includes/class-gb-popup-form.php';
 require_once GB_POPUP_PATH . 'includes/class-gb-popup-cart.php';
 require_once GB_POPUP_PATH . 'includes/class-gb-popup-cache.php';
+require_once GB_POPUP_PATH . 'includes/class-gb-popup-litespeed.php';
 require_once GB_POPUP_PATH . 'includes/functions.php';
 
 add_action( 'init', function () {
@@ -71,6 +72,7 @@ add_action( 'plugins_loaded', function () {
 	GB_Popup::init();
 	GB_Popup_Cart::init();
 	GB_Popup_Cache::init();
+	GB_Popup_LiteSpeed::init();
 }, 20 );
 
 

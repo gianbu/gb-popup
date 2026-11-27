@@ -28,6 +28,7 @@ Further versions arrive as normal plugin updates in the WordPress admin, straigh
 | **Cookie** | Not shown again for N days after closing, for a year after a successful form submission. A new campaign (new image, title, action or dates) is shown to everyone again. |
 | **Cart notice** | Repeats title and text below the cart items (block and classic cart). |
 | **Cache** | Saving the options purges WP Super Cache, WP Rocket, W3TC, WP Fastest Cache, SiteGround, LiteSpeed, Breeze. |
+| **LiteSpeed Cache** | `gb-popup.css` is excluded from Unique CSS (the popup classes are added by JS, UCSS would drop them) and `gb-popup.js` from JS Delayed / Guest Mode, so the opening delay is respected. Automatic, nothing to configure. |
 | **Accessibility** | `role="dialog"`, focus trap, ESC to close, focus restored on close, `prefers-reduced-motion`. |
 | **Performance** | CSS/JS loaded only where the popup can appear; images downloaded only when it opens. |
 

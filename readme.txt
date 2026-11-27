@@ -34,6 +34,9 @@ With WPML + ACFML title, text, button and form are filled in per language
   after a successful form submission. The key changes when image, title,
   action or dates change, so a new campaign is shown to everyone again.
 * Images are downloaded only when the popup actually opens.
+* LiteSpeed Cache: gb-popup.css is excluded from Unique CSS (inlined whole,
+  since the popup classes are added by JS) and gb-popup.js from JS Delayed /
+  Guest Mode, so the opening delay is respected. Nothing to configure.
 * WooCommerce: "Show in the cart too" repeats title and text in a box below
   the cart items (block cart and classic cart).
 * Google Analytics (gtag), if present: events gb_popup_view, gb_popup_close,
