@@ -85,9 +85,10 @@ add a read-only token in wp-config.php:
 
 	define( 'GB_POPUP_GITHUB_TOKEN', 'github_pat_...' );
 
-Release: bump "Version" in gb-popup.php, GB_POPUP_VERSION and "Stable tag",
-commit, then push a tag (e.g. v1.0.1). The GitHub Action builds gb-popup.zip
-(with vendor/) and attaches it to the release.
+Release: bin/release.sh X.Y.Z "Description" updates the version (header,
+GB_POPUP_VERSION, Stable tag) and the changelog, commits, tags vX.Y.Z and
+pushes. The GitHub Action builds gb-popup.zip (with vendor/) and attaches it
+to the release. See README.md.
 
 == Uninstall ==
 Deleting the plugin removes its options (all languages). Images stay in the
