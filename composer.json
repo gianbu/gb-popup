@@ -1,0 +1,18 @@
+{
+    "name": "gianniburei/gb-popup",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Gianni Burei",
+            "homepage": "https://www.gianniburei.it"
+        }
+    ],
+    "require": {
+        "yahnis-elsts/plugin-update-checker": "^5.6"
+    },
+    "description": "Site-wide popup managed from an ACF options page.",
+    "config": {
+        "optimize-autoloader": true
+    }
+}

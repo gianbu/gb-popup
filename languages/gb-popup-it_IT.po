@@ -1,0 +1,272 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GB Popup 1.0.0\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: gb-popup.php:64
+msgid "GB Popup requires Advanced Custom Fields PRO."
+msgstr "GB Popup richiede Advanced Custom Fields PRO."
+
+#: includes/class-gb-popup-fields.php:25 includes/class-gb-popup-fields.php:26
+#: includes/class-gb-popup-fields.php:129
+msgid "Popup"
+msgstr "Popup"
+
+#: includes/class-gb-popup-fields.php:70
+msgid ""
+"When a visitor closes the popup it is not shown again for the number of days"
+" set below; visitors who subscribe through the popup form do not see it "
+"again for a year."
+msgstr ""
+"Quando un visitatore chiude il popup non lo rivede per il numero di giorni "
+"impostato qui sotto; chi si iscrive tramite il form del popup non lo rivede "
+"per un anno."
+
+#: includes/class-gb-popup-fields.php:71
+msgid ""
+"Changing image, title, action or dates makes it a new popup that is shown to"
+" everyone again (editing only the text does not)."
+msgstr ""
+"Se si cambiano immagine, titolo, azione o date il popup viene considerato "
+"nuovo e ricompare a tutti (modificare solo il testo invece non lo "
+"ripropone)."
+
+#: includes/class-gb-popup-fields.php:73
+msgid "The popup never appears in cart and checkout."
+msgstr "Il popup non compare mai nel carrello e nel checkout."
+
+#: includes/class-gb-popup-fields.php:76
+msgid "Translations:"
+msgstr "Traduzioni:"
+
+#: includes/class-gb-popup-fields.php:76
+msgid ""
+"title, text, button and form are filled in for each language, switching "
+"language from the admin bar. In a language without title and text the popup "
+"does not appear."
+msgstr ""
+"titolo, testo, pulsante e form si compilano per ogni lingua, cambiando "
+"lingua dalla barra in alto. In una lingua senza titolo e testo il popup non "
+"compare."
+
+#: includes/class-gb-popup-fields.php:78
+msgid "Preview:"
+msgstr "Anteprima:"
+
+#. translators: %s: query string to add to the URL
+#: includes/class-gb-popup-fields.php:80
+#, php-format
+msgid ""
+"while logged in, add %s to any address of the site to see the popup even if "
+"it is disabled or outside its dates."
+msgstr ""
+"da loggati, aggiungi %s a qualsiasi indirizzo del sito per vedere il popup "
+"anche se non è attivo o è fuori dalle date."
+
+#: includes/class-gb-popup-fields.php:92
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: includes/class-gb-popup-fields.php:93
+msgid "Instructions"
+msgstr "Istruzioni"
+
+#: includes/class-gb-popup-fields.php:94
+msgid "Popup enabled"
+msgstr "Popup attivo"
+
+#: includes/class-gb-popup-fields.php:94
+#: includes/class-gb-popup-fields.php:123
+msgid "Yes"
+msgstr "Sì"
+
+#: includes/class-gb-popup-fields.php:94
+#: includes/class-gb-popup-fields.php:123
+msgid "No"
+msgstr "No"
+
+#: includes/class-gb-popup-fields.php:95
+msgid "Start date"
+msgstr "Data inizio"
+
+#: includes/class-gb-popup-fields.php:95
+msgid "Leave empty to show it right away."
+msgstr "Lasciare vuoto per mostrarlo subito."
+
+#: includes/class-gb-popup-fields.php:96
+msgid "End date"
+msgstr "Data fine"
+
+#: includes/class-gb-popup-fields.php:96
+msgid "After this date the popup is no longer shown."
+msgstr "Dopo questa data il popup non viene più mostrato."
+
+#: includes/class-gb-popup-fields.php:97
+msgid "Opening delay"
+msgstr "Ritardo di apertura"
+
+#: includes/class-gb-popup-fields.php:97
+msgid "Seconds to wait after the page has loaded."
+msgstr "Secondi di attesa dopo il caricamento della pagina."
+
+#: includes/class-gb-popup-fields.php:97
+msgid "seconds"
+msgstr "secondi"
+
+#: includes/class-gb-popup-fields.php:98
+msgid "Do not show again for"
+msgstr "Non riproporre per"
+
+#: includes/class-gb-popup-fields.php:98
+msgid ""
+"Days during which the popup does not reappear after the visitor has closed "
+"it."
+msgstr ""
+"Giorni durante i quali il popup non ricompare dopo che il visitatore lo ha "
+"chiuso."
+
+#: includes/class-gb-popup-fields.php:98
+msgid "days"
+msgstr "giorni"
+
+#: includes/class-gb-popup-fields.php:99
+msgid "Where to show it"
+msgstr "Dove mostrarlo"
+
+#: includes/class-gb-popup-fields.php:99
+msgid "Home page only"
+msgstr "Solo in home page"
+
+#: includes/class-gb-popup-fields.php:99
+msgid "Whole site"
+msgstr "Su tutto il sito"
+
+#: includes/class-gb-popup-fields.php:100
+msgid "Excluded pages"
+msgstr "Pagine escluse"
+
+#: includes/class-gb-popup-fields.php:100
+msgid "Pages where the popup must not appear."
+msgstr "Pagine in cui il popup non deve comparire."
+
+#: includes/class-gb-popup-fields.php:102
+msgid "Content"
+msgstr "Contenuto"
+
+#: includes/class-gb-popup-fields.php:103
+msgid "Image"
+msgstr "Immagine"
+
+#: includes/class-gb-popup-fields.php:103
+msgid ""
+"Shown on the left of the text, cropped to fill the space (about 3:4 to 6:7 "
+"depending on the text). Recommended: portrait 3:4, e.g. 1000×1300px, subject"
+" in the centre. Max 1MB. Alt text is set in the media library."
+msgstr ""
+"Mostrata a sinistra del testo e ritagliata per riempire lo spazio (da circa "
+"3:4 a 6:7 a seconda del testo). Consigliato: verticale 3:4, es. 1000×1300px,"
+" con il soggetto al centro. Max 1MB. Il testo alternativo si imposta nella "
+"libreria media."
+
+#: includes/class-gb-popup-fields.php:104
+msgid "Mobile image"
+msgstr "Immagine mobile"
+
+#: includes/class-gb-popup-fields.php:104
+msgid ""
+"Optional: replaces the image on smartphones (below 768px), where it is shown"
+" above the text, whole and uncropped (up to 40% of the screen height). "
+"Recommended: landscape 5:3, e.g. 1000×600px. If empty, the main image is "
+"used as a band cropped in the centre."
+msgstr ""
+"Facoltativa: sostituisce l'immagine sugli smartphone (sotto i 768px), dove "
+"compare sopra il testo, intera e senza ritagli (fino al 40% dell'altezza "
+"dello schermo). Consigliato: orizzontale 5:3, es. 1000×600px. Se vuota si "
+"usa l'immagine principale come fascia ritagliata al centro."
+
+#: includes/class-gb-popup-fields.php:105
+msgid "Title"
+msgstr "Titolo"
+
+#: includes/class-gb-popup-fields.php:106
+msgid "Text"
+msgstr "Testo"
+
+#: includes/class-gb-popup-fields.php:106
+msgid "Keep it short: bold, italic, lists and links are supported."
+msgstr "Breve: grassetto, corsivo, elenchi e link sono supportati."
+
+#: includes/class-gb-popup-fields.php:107
+msgid "Action"
+msgstr "Azione"
+
+#: includes/class-gb-popup-fields.php:108
+msgid "What to show below the text."
+msgstr "Cosa mostrare sotto il testo."
+
+#: includes/class-gb-popup-fields.php:110
+msgid "None (text only)"
+msgstr "Nessuna (solo testo)"
+
+#: includes/class-gb-popup-fields.php:111
+msgid "Button with link"
+msgstr "Pulsante con link"
+
+#: includes/class-gb-popup-fields.php:112
+msgid "Form (e.g. newsletter sign-up)"
+msgstr "Form (es. iscrizione alla newsletter)"
+
+#: includes/class-gb-popup-fields.php:118
+msgid "Button"
+msgstr "Pulsante"
+
+#: includes/class-gb-popup-fields.php:118
+msgid ""
+"Button text and destination. UTM parameters are recommended (e.g. "
+"?utm_source=site&utm_medium=popup&utm_campaign=christmas)."
+msgstr ""
+"Testo e destinazione del pulsante. Consigliato aggiungere i parametri UTM "
+"(es. ?utm_source=sito&utm_medium=popup&utm_campaign=natale)."
+
+#: includes/class-gb-popup-fields.php:119
+msgid "Form shortcode"
+msgstr "Shortcode del form"
+
+#: includes/class-gb-popup-fields.php:119
+msgid ""
+"Shortcode of the form to show, e.g. [contact-form-7 id=\"123\"]. The form "
+"submits a hidden field gb_popup_source=popup, so sign-ups from the popup can"
+" be told apart."
+msgstr ""
+"Shortcode del form da mostrare, es. [contact-form-7 id=\"123\"]. Il form "
+"invia il campo nascosto gb_popup_source=popup, così le iscrizioni dal popup "
+"si possono distinguere."
+
+#: includes/class-gb-popup-fields.php:123
+msgid "Show in the cart too"
+msgstr "Mostra anche nel carrello"
+
+#: includes/class-gb-popup-fields.php:123
+msgid ""
+"Repeats title and text in a box in the cart, below the list of products (no "
+"image, no action). It follows the same dates as the popup."
+msgstr ""
+"Ripete titolo e testo in un box nel carrello, sotto la lista dei prodotti "
+"(senza immagine né azione). Segue le stesse date del popup."
+
+#: templates/popup.php:31
+msgid "Notice"
+msgstr "Avviso"
+
+#: templates/popup.php:44
+msgid "Close"
+msgstr "Chiudi"
+
+#: templates/popup.php:80
+msgid "Find out more"
+msgstr "Scopri di più"

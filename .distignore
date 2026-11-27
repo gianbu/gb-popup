@@ -1,0 +1,9 @@
+.git
+.github
+.gitignore
+.distignore
+.DS_Store
+bin
+dist
+composer.json
+composer.lock

@@ -1,0 +1,38 @@
+# Push di un tag vX.Y.Z -> release GitHub con gb-popup.zip allegato.
+# Il plugin installato sui siti scarica gli aggiornamenti da questo zip (Plugin Update Checker).
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.1"
+          tools: composer
+
+      - name: Controllo versione
+        run: |
+          TAG="${GITHUB_REF_NAME#v}"
+          HEADER=$(grep -m1 -E '^\s*\*\s*Version:' gb-popup.php | awk '{print $NF}')
+          if [ "$TAG" != "$HEADER" ]; then
+            echo "Il tag ($TAG) non corrisponde alla Version di gb-popup.php ($HEADER)"; exit 1
+          fi
+
+      - name: Build zip
+        run: bin/build-zip.sh
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: dist/gb-popup.zip
+          generate_release_notes: true
