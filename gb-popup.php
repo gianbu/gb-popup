@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       GB Popup
  * Description:       Site-wide popup managed from an ACF options page: image + text, optional button or newsletter form, scheduling, cookie, page targeting and an optional notice in the WooCommerce cart.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Requires at least: 6.5
  * Requires PHP:      7.4
  * Author:            Gianni Burei
@@ -22,7 +22,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'GB_POPUP_VERSION', '1.0.0' );
+define( 'GB_POPUP_VERSION', '1.0.1' );
 define( 'GB_POPUP_FILE', __FILE__ );
 define( 'GB_POPUP_PATH', plugin_dir_path( __FILE__ ) );
 define( 'GB_POPUP_URL', plugin_dir_url( __FILE__ ) );

@@ -4,7 +4,7 @@ Author URI: https://www.gianniburei.it
 Copyright: © 2026 Gianni Burei
 Requires at least: 6.5
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 
 Popup managed from an ACF options page: image + text, optional button or
@@ -98,5 +98,8 @@ Deleting the plugin removes its options (all languages). Images stay in the
 media library.
 
 == Changelog ==
+= 1.0.1 =
+* LiteSpeed Cache compatibility: gb-popup.css is excluded from Unique CSS, gb-popup.js from JS Delayed and Guest Mode.
+
 = 1.0.0 =
 * First release.
